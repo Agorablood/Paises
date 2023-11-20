@@ -1,13 +1,5 @@
 <div class="col-10">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-md-6 bg-primary">Azul</div>
-            <div class="col-12 col-md-3 bg-warning">Amarillo</div>
-            <div class="col-12 col-md-2 bg-succes">Blanco</div>
-            <div class="col-12 col-md-1 bg-danger">Rojo</div>
-        </div>
 
-    </div>
     <div class="row justify-content-md-center">
         <div class="col-12 col-md-4 card  p-4">
             <div class="card shadow">

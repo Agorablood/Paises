@@ -5,7 +5,7 @@
                 <svg class="bi me-2" width="40" height="32">
                     <use xlink:href="#bootstrap" />
                 </svg>
-                <span class="fs-4">Sidebar</span>
+                <span class="fs-4">Menú</span>
             </a>
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
@@ -14,7 +14,7 @@
                         <svg class="bi me-2" width="16" height="16">
                             <use xlink:href="#home" />
                         </svg>
-                        Home
+                        Fotos
                     </a>
                 </li>
                 <li>
@@ -30,7 +30,7 @@
                         <svg class="bi me-2" width="16" height="16">
                             <use xlink:href="#table" />
                         </svg>
-                        Orders
+                        Curiosidades
                     </a>
                 </li>
                 <li>
@@ -38,7 +38,7 @@
                         <svg class="bi me-2" width="16" height="16">
                             <use xlink:href="#grid" />
                         </svg>
-                        Products
+                        Sitios Favoritos
                     </a>
                 </li>
                 <li>
@@ -46,24 +46,24 @@
                         <svg class="bi me-2" width="16" height="16">
                             <use xlink:href="#people-circle" />
                         </svg>
-                        Customers
+                        Regalos típicos
                     </a>
                 </li>
             </ul>
             <hr>
             <div class="dropdown">
                 <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
-                    <strong>mdo</strong>
+                    <img src="https://i.pinimg.com/736x/64/34/4e/64344e345245a2085b9fe3b361e23e3b.jpg" alt="" width="32" height="32" class="rounded-circle me-2">
+                    <strong>Agora</strong>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
-                    <li><a class="dropdown-item" href="#">New project...</a></li>
-                    <li><a class="dropdown-item" href="#">Settings</a></li>
-                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Nuevo Proyecto</a></li>
+                    <li><a class="dropdown-item" href="#">Ajustes</a></li>
+                    <li><a class="dropdown-item" href="#">Perfil</a></li>
                     <li>
                         <hr class="dropdown-divider">
                     </li>
-                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    <li><a class="dropdown-item" href="#">Salir</a></li>
                 </ul>
             </div>
         </div>
