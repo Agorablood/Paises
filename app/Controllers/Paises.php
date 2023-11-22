@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Vehiculos extends BaseController
+class Paises extends BaseController
 {
     public function index(): string
     {
@@ -12,7 +12,7 @@ class Vehiculos extends BaseController
     //URL
     //
     // @return string un conjuntos de vistar para configurar una pagina web
-    public function coches(): string
+    public function mostrar(): string
     {
         $datos['titulo'] = 'Paises';
 

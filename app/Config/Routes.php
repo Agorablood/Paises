@@ -5,4 +5,4 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Vehiculos::coches');
+$routes->get('/', 'Paises::mostrar');
