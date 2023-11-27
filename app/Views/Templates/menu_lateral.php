@@ -7,13 +7,13 @@
     $korea = '';
     if ($seleccionado == 'inicio') {
         $inicio = 'active';
-    }elseif($seleccionado){
+    } elseif ($seleccionado =='japon') {
         $japon = 'active';
-    }elseif($seleccionado){
+    } elseif ($seleccionado == 'italia') {
         $italia = 'active';
-    }elseif($seleccionado){
+    } elseif ($seleccionado== 'grecia' ) {
         $grecia = 'active';
-    }elseif($seleccionado){
+    } elseif ($seleccionado =='korea') {
         $korea = 'active';
     }
 
@@ -21,7 +21,7 @@
     ?>
     <div class="row">
         <div class="col-2 p-5 text-white bg-dark" style="min-height: 100vh; height: 'auto';">
-            <a href="<?php echo base_url(); ?>paises/inicio" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <a href="<?php echo base_url(); ?>paises/inicio" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white nav-link <?php echo $inicio ?>">
                 <svg class="bi me-2" width="40" height="32">
                 </svg>
                 <span class="fs-4">Inicio</span>
@@ -29,23 +29,23 @@
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
-                    <a href="<?php echo base_url(); ?>paises/japon" class="nav-link text-white">
+                    <a href="<?php echo base_url(); ?>paises/japon" class="nav-link <?php echo $japon ?> text-white">
                         🇯🇵 Japón ⛩
                     </a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url(); ?>paises/italia" class="nav-link text-white">
+                    <a href="<?php echo base_url(); ?>paises/italia" class="nav-link <?php echo $italia ?> text-white">
                         🇮🇹 Italia 🍕
                     </a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url(); ?>paises/grecia" class="nav-link text-white">
+                    <a href="<?php echo base_url(); ?>paises/grecia" class="nav-link <?php echo $grecia ?> text-white">
 
                         🇬🇷 Grecia 🏛️
                     </a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url(); ?>paises/korea" class="nav-link text-white">
+                    <a href="<?php echo base_url(); ?>paises/korea" class="nav-link <?php echo $korea ?> text-white">
 
                         🇰🇷 Korea 🫰🏻
                     </a>

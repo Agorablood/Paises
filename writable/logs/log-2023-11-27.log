@@ -82,3 +82,25 @@ in APPPATH\Views\Templates\menu_lateral.php on line 8.
  7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
  8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-27 11:05:25 --> Undefined variable $seleccionado
+in APPPATH\Views\Templates\menu_lateral.php on line 8.
+ 1 APPPATH\Views\Templates\menu_lateral.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $seleccionado', 'C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\menu_lateral.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\menu_lateral.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/menu_lateral', [], true)
+ 5 APPPATH\Controllers\Paises.php(32): view('templates/menu_lateral')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Paises->japon()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-27 11:05:42 --> Undefined variable $seleccionado
+in APPPATH\Views\Templates\menu_lateral.php on line 8.
+ 1 APPPATH\Views\Templates\menu_lateral.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $seleccionado', 'C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\menu_lateral.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\menu_lateral.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/menu_lateral', [], true)
+ 5 APPPATH\Controllers\Paises.php(32): view('templates/menu_lateral')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Paises->japon()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
