@@ -1,52 +1,53 @@
 <body>
+    <?php
+    $inicio = '';
+    $japon = '';
+    $italia = '';
+    $grecia = '';
+    $korea = '';
+    if ($seleccionado == 'inicio') {
+        $inicio = 'active';
+    }elseif($seleccionado){
+        $japon = 'active';
+    }elseif($seleccionado){
+        $italia = 'active';
+    }elseif($seleccionado){
+        $grecia = 'active';
+    }elseif($seleccionado){
+        $korea = 'active';
+    }
+
+
+    ?>
     <div class="row">
-        <div class="col-2 p-3 text-white bg-dark">
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+        <div class="col-2 p-5 text-white bg-dark" style="min-height: 100vh; height: 'auto';">
+            <a href="<?php echo base_url(); ?>paises/inicio" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                 <svg class="bi me-2" width="40" height="32">
-                    <use xlink:href="#bootstrap" />
                 </svg>
-                <span class="fs-4">Menú</span>
+                <span class="fs-4">Inicio</span>
             </a>
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
-                    <a href="#" class="nav-link active" aria-current="page">
-                        <svg class="bi me-2" width="16" height="16">
-                            <use xlink:href="#home" />
-                        </svg>
-                        Fotos
+                    <a href="<?php echo base_url(); ?>paises/japon" class="nav-link text-white">
+                        🇯🇵 Japón ⛩
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="nav-link text-white">
-                        <svg class="bi me-2" width="16" height="16">
-                            <use xlink:href="#speedometer2" />
-                        </svg>
-                        Dashboard
+                    <a href="<?php echo base_url(); ?>paises/italia" class="nav-link text-white">
+                        🇮🇹 Italia 🍕
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="nav-link text-white">
-                        <svg class="bi me-2" width="16" height="16">
-                            <use xlink:href="#table" />
-                        </svg>
-                        Curiosidades
+                    <a href="<?php echo base_url(); ?>paises/grecia" class="nav-link text-white">
+
+                        🇬🇷 Grecia 🏛️
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="nav-link text-white">
-                        <svg class="bi me-2" width="16" height="16">
-                            <use xlink:href="#grid" />
-                        </svg>
-                        Sitios Favoritos
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link text-white">
-                        <svg class="bi me-2" width="16" height="16">
-                            <use xlink:href="#people-circle" />
-                        </svg>
-                        Regalos típicos
+                    <a href="<?php echo base_url(); ?>paises/korea" class="nav-link text-white">
+
+                        🇰🇷 Korea 🫰🏻
                     </a>
                 </li>
             </ul>

@@ -1,0 +1,84 @@
+CRITICAL - 2023-11-27 07:38:08 --> Invalid file: "view/Japon.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view/Japon.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('view/Japon.php', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('view/Japon.php')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Paises->mostrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-27 07:38:25 --> Invalid file: "views/Japon.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('views/Japon.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('views/Japon.php', [], true)
+ 3 APPPATH\Controllers\Paises.php(19): view('views/Japon.php')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Paises->mostrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-27 08:27:32 --> Undefined variable $titulo
+in APPPATH\Views\Templates\header.php on line 3.
+ 1 APPPATH\Views\Templates\header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\header.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Paises.php(25): view('templates/header')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Paises->japon()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-27 08:28:29 --> Undefined variable $titulo
+in APPPATH\Views\Templates\header.php on line 3.
+ 1 APPPATH\Views\Templates\header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\header.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Paises.php(25): view('templates/header')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Paises->japon()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-27 10:13:03 --> Undefined variable $seleccionado
+in APPPATH\Views\Templates\menu_lateral.php on line 8.
+ 1 APPPATH\Views\Templates\menu_lateral.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $seleccionado', 'C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\menu_lateral.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\menu_lateral.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/menu_lateral', [], true)
+ 5 APPPATH\Controllers\Paises.php(38): view('templates/menu_lateral')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Paises->japon()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-27 10:13:07 --> Undefined variable $seleccionado
+in APPPATH\Views\Templates\menu_lateral.php on line 8.
+ 1 APPPATH\Views\Templates\menu_lateral.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $seleccionado', 'C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\menu_lateral.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\menu_lateral.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/menu_lateral', [], true)
+ 5 APPPATH\Controllers\Paises.php(33): view('templates/menu_lateral')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Paises->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-27 10:13:12 --> Undefined variable $seleccionado
+in APPPATH\Views\Templates\menu_lateral.php on line 8.
+ 1 APPPATH\Views\Templates\menu_lateral.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $seleccionado', 'C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\menu_lateral.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\menu_lateral.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/menu_lateral', [], true)
+ 5 APPPATH\Controllers\Paises.php(38): view('templates/menu_lateral')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Paises->japon()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-27 10:13:14 --> Undefined variable $seleccionado
+in APPPATH\Views\Templates\menu_lateral.php on line 8.
+ 1 APPPATH\Views\Templates\menu_lateral.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $seleccionado', 'C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\menu_lateral.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SERVIDOR\\Paises\\app\\Views\\Templates\\menu_lateral.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/menu_lateral', [], true)
+ 5 APPPATH\Controllers\Paises.php(44): view('templates/menu_lateral')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Paises->italia()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paises))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
